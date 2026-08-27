@@ -1,0 +1,43 @@
+# Ambientes virtuais Python
+venv/
+detectar-faces/venv/
+env/
+ENV/
+.venv/
+
+# Bytecode / cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Ferramentas de teste e cobertura
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configurações de IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+.env.*
